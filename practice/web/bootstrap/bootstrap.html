@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">   
+<head>
+<title>Bootstrap</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark" style="background-color: brown;">
+        <div class="container-fluid">
+          <a class="navbar-brand" ><img src="../../../images/smiling naruto.jpg" alt="Logo" style="width:90px;" class="rounded-pill"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>  
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Dropdown</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjhqrqznPL2AhWEyIUKHbVDD8wQPAgI">google</a></li>
+                  <li><a class="dropdown-item" href="https://www.youtube.com/">YT</a></li>
+                  <li><a class="dropdown-item" href="https://www.youtube.com/watch?v=zpfo54pezfU&list=RDzpfo54pezfU&start_radio=1">ENJOY</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <div class="container-fluid p-5 bg-primary text-white text-center">
+        <h1>My First Bootstrap Page</h1>
+        <p>Resize this responsive page to see the effect!</p> 
+    </div>
+    <div class="row">
+        <div class="col-sm-4 p-2 text-primary text-center">
+        <h3>Home</h3>
+        <p>Click Here to Go on HomePage</p>
+        </div>
+        <div class="col-sm-4 p-2 text-info text-center">
+        <h3>About Us</h3>
+        <p>We give services related to Tech</p>
+        </div>
+        <div class="col-sm-4 p-2 text-danger text-center">
+        <h3>Contact Us</h3>        
+        <p>Conatct Us via Email</p>
+        </div>
+        </div>
+        </div>
+        <div class="container text-secondary" style="border:3px solid brown"> 
+            <h1 >Three equal width columns</h1>
+            <div class="row">
+            <div class="col p-5 bg-danger text-white" style="border:2px solid tomato">Heading</div>
+            <div class="col p-3 bg-warning text-white" style="border:2px solid gray">.col</div>
+            <div class="col p-3 bg-primary text-white" style="border:2px solid greenyellow">.col</div>
+            </div>
+            </div>
+            <div class="container mt-3">
+              
+                <h2>Contextual Colors</h2>
+                <p>Use the contextual classes to provide "meaning through colors":</p>
+                <h1 class="text-white bg-primary">This text is muted.</h1>
+                <p class="text-primary">This text is important.</p>
+                <p  class="text-success">This text indicates success.</p> 
+                <p class="text-info">This text represents some information.</p>
+                <p class="text-warning">This text represents a warning.</p>
+                <p class="text-danger">This text represents danger.</p>
+                <p class="text-secondary">Secondary text.</p>
+                <p class="text-dark">This text is dark grey.</p>
+                <p class="text-body">Default body color (often black).</p>
+                <p class="text-light">This text is light grey (on white background).</p>
+                <p class="text-white">This text is white (on white background).</p>
+              </div>
+              <div class="container mt-3">
+                <h2>Hover Rows</h2>
+                <p>The .table-hover class enables a hover state (grey background on mouse over) on table rows:</p>            
+                <table class="table table-hover bg-info">
+                    <div>
+                  <thead>
+                    <tr class=" bg-success">
+                      <th>Firstname</th>
+                      <th>Lastname</th>
+                      <th>Email</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Sohaib</td>
+                      <td>Amjad</td>
+                      <td>saibi515@gmail.com</td>
+                    </tr>
+                    <tr>
+                      <td>Uzair</td>
+                      <td>Iqbal</td>
+                      <td>uzairiqbal@gmail.com</td>
+                    </tr>
+                    <tr>
+                      <td>Rabbia</td>
+                      <td>Hafeez</td>
+                      <td>rabbiahafeez@gmail.com</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <img src="../../../images/smiling naruto.jpg" class="img-thumbnail" alt="Cinque Terre" width="304" height="236">
+             
+
+
+</body>
+</html>

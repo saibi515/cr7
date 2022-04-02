@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">   
+<head>
+<title>Form</title>
+</head>
+<style>
+    h1{text-align: center; background-color:yellow;}
+    form{
+        border:4px solid blue;
+        text-align: center;
+        background-color: aqua;
+        font-size: large;
+    margin-right: 40%;
+margin-left: 40%;}
+       input{background-color: yellow;}
+       textarea{
+           border: 3px solid black;
+           background-color: yellow;}
+           select{background-color: wheat;}
+           body{background-color: rgb(111, 143, 79);}
+       
+</style>
+<body> 
+    <h1>Html form creating</h1><hr>
+    <form action="">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" requried><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" requried><br>
+        <label for="Phone#">Phnone #:</label><br>
+        <input type="tel" id="phone" name="phone"  placeholder="+923455330453"
+        pattern="[+,0-9]{13}" required><br>
+        <label for="Cnic">Cnic</label><br>
+        <input type="tel" id="Cnic" name="Cnic"placeholder="61101-2618844-7"
+        pattern="[0-9]{5}-[0-9]{7}-[0-9]{1}" required><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label type="Gender">Gender</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">female</label><br>
+         <label for="files">Select files:</label>
+  <input type="file" id="files" name="files" multiple><br><br>
+        <label for="country">Choose a country:</label>
+  <select id="country" name="country"size="4" multiple>
+    <option value="Pakistan">Pakistan</option>
+    <option value="UK">UK</option>
+    <option value="UAE"selected>UAE</option>
+    <option value="saudi">Saudi</option>
+    <textarea name="message" rows="10" cols="30">About your country.</textarea>
+    <button type="button" onclick="alert('complete the form with correct data')">Click Me!</button>
+  </select>
+        <input type="submit" value="Submit">
+       
+    </form>
+</body>
+</html>
+

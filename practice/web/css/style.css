@@ -1,0 +1,60 @@
+body{
+    background-color:dodgerblue;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    background-image:url(../../../images/smiling\ naruto.jpg);
+    background-size: 1700px; 
+    background-repeat: no-repeat; 
+    background-position:center top;
+  
+    
+    
+}
+h1{
+    color:white;
+     font-family:"Gill Sans" 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+     text-align: left;
+     background-color: dodgerblue;
+     border:10px solid white;
+     padding: 20px;
+     /* margin-left: 40%; */
+     margin-right: 80%;
+     
+}
+p{background-color:teal;
+    color:white;}
+pre{
+    color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: teal;}
+a {
+    color:white;
+}
+img {border:10px solid white;
+    padding: 20px;
+     margin: 20px;
+     background-color: dodgerblue;
+}
+h3{ text-align: center;}
+ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color: tomato;}
+li{ float: right;}
+li a{display:block ;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    text-decoration: none;
+font-size: 20px;}
+li a:hover{background-color: black;}
+div {text-align: center;
+    background-color: lightgrey;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    /* margin-left: 50%; */
+    /* background-image: linear-gradient(red, yellow) */
+    background-image:url(../../../images/khanoha.jpg);
+background-size: 500px;}
